@@ -14,13 +14,13 @@ In this case it's important to remember that no one can see your Codespace but y
 
 ## Google Colab
 
-Colab is a Jupyter notebook environment from Google. If you have a Google email address, you have access to Colab. Direct your browser to [Colab](https://colab.research.google.com/). In the File menu, click Open, click on Github, paste the following URL in the text box:
+Colab is a Jupyter notebook environment from Google. If you have a Google email address, you have access to Colab. Direct your browser to [Colab](https://colab.research.google.com/). In the File menu, click Open notebook, click on Github, paste the following URL in the text box:
 ```text
-https://github.com/lgreco/comp-460-f25-week-00/blob/main/assignment.ipynb
+https://github.com/lgreco/comp-460-f25-week-00
 ```
-and then click on the search button (it looks like a magnifying glass). You'll see the notebook `assignment.ipynb` appearing. Click on the `open assignment.ipynb in new tab` button -- it looks like a square with an arrow pointing out.
+and then press Tab or click on the search button (it looks like a magnifying glass). You'll see the notebook `assignment.ipynb` appearing in the list. Click on the `open assignment.ipynb in new tab` button -- it looks like a square with an arrow pointing out.
 
-When it's time to submit your assignment, go to your Colab's share option, make your notebook public, copy its link, and paste the link to Sakai.
+When it's time to submit your assignment, go to your Colab's share option, **make your notebook public,** copy its link, and paste the link to Sakai.
 
 ## Your own environment
 
@@ -39,7 +39,3 @@ A link ending in `.dev` is *not* a repository link.
 The only files you may upload are standard source code files: `.py` for Python, `.java` for Java, `.c` for C, `.rs` for Rust, etc.
 
 If you are not certain, ask.
-
-# Finals week policy
-
-There is no final exam for the course. There will be a final assignemnt that will be published the week before finals and will be due the week of finals. Additionally, 8 students in the course will be invited randomly to a brief meeting with the instructor during the course's final exam slot. If you are selected for a brief meeting, we'll spend about 15 minutes during the final exam slot to review your work. This interview will cover coding practices based on your past assignments. It is meant as a checkpoint to ensure that you have internalized the work you submitted.
