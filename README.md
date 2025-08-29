@@ -40,4 +40,4 @@ A link ending in `.dev` is *not* a repository link.
 
 The only files you may upload are standard source code files: `.py` for Python, `.java` for Java, `.c` for C, `.rs` for Rust, etc.
 
-If you are not certain, ask.
+If you are not certain, please ask.
