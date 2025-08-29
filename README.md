@@ -30,12 +30,16 @@ When you are ready to submit your work, upload the file with your code in Sakai.
 
 ## What not to upload.
 
-Under any circumstances, do not upload a Jupyter notebook to Sakai. That's a file with the extension `.ipynb` to Sakai. It will disqualify your submission.
+Under any circumstances, do not upload a Jupyter notebook to Sakai. That's a file with the extension `.ipynb` to Sakai. It will disqualify your submission. Changing the file extension will not help.
 
-If you work with Jupyter notebooks, you may only submit either a link to a Github repository or to a public Colab notebook.
+If you work with Jupyter notebooks, please submit only a link to a Github repository or to a public Colab notebook.
 
 A link ending in `.dev` is *not* a repository link.
 
-The only files you may upload is standard source code files: `.py` for Python, `.java` for Java, etc.
+The only files you may upload are standard source code files: `.py` for Python, `.java` for Java, `.c` for C, `.rs` for Rust, etc.
 
 If you are not certain, ask.
+
+# Finals week policy
+
+There is no final exam for the course. There will be a final assignemnt that will be published the week before finals and will be due the week of finals. Additionally, 8 students in the course will be invited randomly to a brief meeting with the instructor during the course's final exam slot. If you are selected for a brief meeting, we'll spend about 15 minutes during the final exam slot to review your work. This interview will cover coding practices based on your past assignments. It is meant as a checkpoint to ensure that you have internalized the work you submitted.
