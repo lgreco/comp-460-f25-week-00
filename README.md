@@ -12,7 +12,7 @@ There are three ways to prepare and submit this assigment: in a GitHub, in Googl
 
 Simply fork this repository. Keep your fork public. In your fork, click on the green "code" button, and select "create codespace on main". This will launch a web-based instance of Visual Studio Code with everything you need to work on the assigment.
 
-In this case it's important to remember that no one can see your Codespace but you. When you are ready to submit the assignment, you must commit and synchronize your Codespace with Github. In Sakai, paste the link to your repository in Github. (A mistake easy to make here is to copy the link to your Codespace. Such links end in `.dev`).
+In this case it's important to remember that no one can see your Codespace but you. When you are ready to submit the assignment, you must commit and synchronize your Codespace with Github. In Sakai, paste the link to your repository in Github. (An easy-to-make mistake here is to copy and paste in Sakai the link to your Codespace. Such links end in `.dev`).
 
 ### Google Colab
 
