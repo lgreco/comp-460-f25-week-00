@@ -2,9 +2,11 @@
 
 The assignment can be found in the Jupyter notebook named [assignment.ipynb](./assignment.ipynb).
 
-There are several ways to work on this assigment.
+## How to work on this assigment
 
-## Codespaces
+There are three ways to prepare and submit this assigment: in a GitHub, in Google Colab, or in your own environment.
+
+### Github
 
 **Requires some familiarity with Github and Codespaces.**
 
@@ -12,7 +14,7 @@ You can accept this assignment through the GitHub classroom, open the Github rep
 
 In this case it's important to remember that no one can see your Codespace but you. When you are ready to submit the assignment, you must commit and synchronize your Codespace with Github. In Sakai, paste the link to your repository in the Github classroom.
 
-## Google Colab
+### Google Colab
 
 Colab is a Jupyter notebook environment from Google. If you have a Google email address, you have access to Colab. Direct your browser to [Colab](https://colab.research.google.com/). In the File menu, click Open notebook, click on Github, paste the following URL in the text box:
 ```text
@@ -22,7 +24,7 @@ and then press Tab or click on the search button (it looks like a magnifying gla
 
 When it's time to submit your assignment, go to your Colab's share option, **make your notebook public,** copy its link, and paste the link to Sakai.
 
-## Your own environment
+### Your own environment
 
 The previous two options are useful if you wish to carry out your work in a Jupyter notebook. If you present to use plain Python, or any other programming language, you are welcome to use any environment you are familiar with. In this case you may have to copy and paste some code, if you are working with Python, or write everything from scratch if you are working in another language.
 
