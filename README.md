@@ -1,3 +1,3 @@
-# Week 01
+# Week 00: from an abstract data type to a realistic implementation.
 
-From an abstract data type to a realistic implementation.
+The ass
