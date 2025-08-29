@@ -10,9 +10,9 @@ There are three ways to prepare and submit this assigment: in a GitHub, in Googl
 
 **Requires some familiarity with Github and Codespaces.** You will need a GitHub account for this. If you already have one, make sure that you official LUC email address is listed as one of your email addresses. If you do not have one, create one using your LUC email address (you can add other email addresses as well).
 
-You can accept this assignment through the GitHub classroom, open the Github repository, click on the green "code" button, and select "create codespace on main". This will launch a web-based instance of Visual Studio Code with everything you need to work on the assigment.
+Simply fork this repository. Keep your fork public. In your fork, click on the green "code" button, and select "create codespace on main". This will launch a web-based instance of Visual Studio Code with everything you need to work on the assigment.
 
-In this case it's important to remember that no one can see your Codespace but you. When you are ready to submit the assignment, you must commit and synchronize your Codespace with Github. In Sakai, paste the link to your repository in the Github classroom.
+In this case it's important to remember that no one can see your Codespace but you. When you are ready to submit the assignment, you must commit and synchronize your Codespace with Github. In Sakai, paste the link to your repository in Github. (A mistake easy to make here is to copy the link to your Codespace. Such links end in `.dev`).
 
 ### Google Colab
 
