@@ -4,7 +4,7 @@ The assignment can be found in the Jupyter notebook named [assignment.ipynb](./a
 
 ## How to work on this assigment
 
-There are three ways to prepare and submit this assigment: in a GitHub, in Google Colab, or in your own environment.
+There are three ways to prepare and submit this assigment: in GitHub Codespaces, in Google Colab, or in your own environment.
 
 ### Github
 
