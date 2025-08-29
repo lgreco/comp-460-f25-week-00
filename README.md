@@ -2,6 +2,8 @@
 
 The assignment can be found in the Jupyter notebook named [assignment.ipynb](./assignment.ipynb).
 
+Please do not modify the contents in folder `.devcontainer` and in file `requirements.txt`.
+
 ## How to work on this assigment
 
 There are three ways to prepare and submit this assigment: in GitHub Codespaces, in Google Colab, or in your own environment.
