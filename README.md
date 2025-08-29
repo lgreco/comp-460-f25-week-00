@@ -30,7 +30,7 @@ The previous two options are useful if you wish to carry out your work in a Jupy
 
 When you are ready to submit your work, upload the file with your code in Sakai.
 
-## What not to upload.
+## What not to upload
 
 Under any circumstances, do not upload a Jupyter notebook to Sakai. That's a file with the extension `.ipynb` to Sakai. It will disqualify your submission. Changing the file extension will not help.
 
