@@ -3,7 +3,7 @@ class MinHeap:
         self.heap_array = [None] * capacity  # fixed capacity
         self.element_counter = 0
 
-    # ---- index relations ----
+    # Index
     def left_child(self, parent: int) -> int:
         return 2 * parent + 1
 
@@ -14,15 +14,15 @@ class MinHeap:
         return (child - 1) // 2
 
     def swap(self, i: int, j: int) -> None:
-        """In-place swap of two array elements."""
+        # Swapping two elements
         if i != j:
             temp = self.heap_array[i]
             self.heap_array[i] = self.heap_array[j]
             self.heap_array[j] = temp
 
-    # ---- heap core operations ----
+    #  heap core operations
     def add(self, value: str) -> None:
-        """Add a new element and restore min-heap property (bubble up)."""
+        # Add new element and restore min-heap 
         if self.element_counter >= len(self.heap_array):
             raise IndexError("Heap capacity exceeded")
 
@@ -34,7 +34,7 @@ class MinHeap:
         self._bubble_up(self.element_counter - 1)
 
     def remove(self) -> str | None:
-        """Remove and return the smallest element (root)."""
+        # Remove and return the smallest element
         if self.element_counter == 0:
             return None
 
@@ -44,25 +44,24 @@ class MinHeap:
         self.heap_array[self.element_counter - 1] = None
         self.element_counter -= 1
 
-        # Restore heap property (bubble down)
+        # Restore heap property 
         if self.element_counter > 0:
             self._bubble_down(0)
 
         return removed
 
     def peek(self) -> str | None:
-        """Return (without removing) the smallest element."""
+        # Return the smallest element
         if self.element_counter == 0:
             return None
         return self.heap_array[0]
 
     def size(self) -> int:
-        """Return number of elements currently stored."""
+        # Return size
         return self.element_counter
 
-    # ---- helpers to restore heap ----
-    def _bubble_up(self, index: int) -> None:
-        """Restore heap upward after insertion."""
+    # helpers to restore heap
+    def _bubble_up(self, index: int) -> None:  
         while index > 0:
             p = self.parent(index)
             if self.heap_array[index] < self.heap_array[p]:
@@ -72,7 +71,6 @@ class MinHeap:
                 break
 
     def _bubble_down(self, index: int) -> None:
-        """Restore heap downward after removal."""
         while True:
             left = self.left_child(index)
             right = self.right_child(index)
@@ -90,17 +88,17 @@ class MinHeap:
                 break
 
 
-# ---- Example usage ----
+
 if __name__ == "__main__":
     h = MinHeap(10)
-    h.add("pear")
-    h.add("apple")
-    h.add("banana")
-    h.add("cherry")
+    h.add("cat")
+    h.add("zebra")
+    h.add("donkey")
+    h.add("dog")
 
-    print("Heap size:", h.size())        # 4
-    print("Peek smallest:", h.peek())    # apple
+    print("Heap size:", h.size())        
+    print("Peek smallest:", h.peek())    
 
-    print("Removed:", h.remove())        # apple
-    print("Peek now:", h.peek())         # banana
-    print("Heap size:", h.size())        # 3
+    print("Removed:", h.remove())        
+    print("Peek now:", h.peek())         
+    print("Heap size:", h.size())        
